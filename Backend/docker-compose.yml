@@ -1,0 +1,11 @@
+version: "3"
+services:
+  node-app:
+    build: .
+    ports:
+      - "5050:5050"
+    volumes:
+      - ./:/app
+      - /app
+
+
